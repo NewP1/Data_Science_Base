@@ -1,0 +1,44 @@
+데이터 추출의 원리
+
+웹사이트에서 HTML 코드를 받아오는 법을 배웠습니다. 
+
+사실 HTML 코드에서 데이터를 골라내는 작업은 웹 페이지를 꾸미는 스타일링 원리와 밀접한 연관이 있다. 
+특정 태그를 선택한다는 공통점 때문이다.
+
+---HTML---
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Website</title>
+</head>
+<body>
+<h2>HTML 연습!</h2>
+
+<p>이것은 첫 번째 문단입니다.</p>
+<p>이것은 두 번째 문단입니다!</p>
+
+<ul>
+    <li>커피</li>
+    <li>녹차</li>
+    <li>우유</li>
+</ul>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/550px-A_small_cup_of_coffee.JPG">
+</body>
+</html>
+---
+
+CSS를 사용하면 HTML 태그에 색, 폰트, 크기, 여백 등을 설정할 수 있다.
+
+---CSS 코드---
+
+li {
+  color: blue;
+  font-size: 20px;
+}
+
+---
+
+구성은 HTML 태그를 선택하는 코드, 스타일을 지정하는 코드
+
+실제로는 link 라는 태그를 통해 css 파일에 쓰인 스타일을 html 태그에 적용하게 된.
